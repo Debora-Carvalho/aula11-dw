@@ -1,0 +1,198 @@
+#ID-DIV{
+    background-color: aqua;
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.CLASS-DIV{
+    background-color: rgb(65, 124, 124);
+    width: 300px;
+    height: 70px;
+    font-size: 18px;
+    border:10px solid yellow;
+}
+
+/* div{
+
+    width: 300px;
+    height: 300px;
+    border:10px solid rgb(56, 202, 146);
+    margin-top: 4px;
+} */
+
+#mt{
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    margin-top: 30px;
+}
+#mb{
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    margin-bottom: 30px;
+}
+#mr{
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    margin-right: 30px;
+}
+#ml{
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    margin-left: 30px;
+}
+
+#allm{
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    padding: 30px 20px 30px 20px;
+}
+
+#pt{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(141, 92, 0);
+    padding-top: 30px;
+}
+#pb{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(141, 92, 0);
+    padding-bottom: 30px;
+}
+#pr{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(141, 92, 0);    
+    padding-right: 30px;
+}
+#pl{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(141, 92, 0);    
+    padding-left: 30px;
+}
+
+#allp{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(141, 92, 0);    
+    padding-left: 30px;
+    padding: 30px 20px 30px 20px;
+}
+
+.block-element{
+    background-color: purple;
+    width: 300px;
+    height: 100px;
+    display: block;
+}
+
+.inline-block-element{
+    background-color: rgb(182, 132, 132);
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+}
+
+.none-element{
+    display: none;
+}
+
+.inline-element{
+    background-color: rgb(173, 81, 81);
+    width: 300px;
+    height: 100px;
+    display: inline;
+}
+
+/* Positions */
+.static-box{
+    background-color: aquamarine;
+    position: static;
+    height: 50px;
+}
+.relative-box{
+    position: relative;
+    top: 50px;
+    left: 30px;
+    background-color: bisque;
+}
+.fixed-box{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    background-color: blueviolet;
+}
+.parent{
+    position:relative;
+    top: 1000px;
+   
+}
+
+.absolute-box{
+ border: 1px solid #ccc;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    background-color: aliceblue;
+}
+
+/* FLEX */
+
+.flex-h-start{
+    display: flex;
+    justify-content: flex-start;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+.flex-h-end{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(75, 158, 27);
+    margin-top: 10px;
+}
+.flex-h-center{
+    display: flex;
+    height: 150px;
+    justify-content:center;
+    background-color: rgb(140, 165, 73);
+    margin-top: 10px;
+}
+
+.flex-v-start{
+    display: flex;
+    height: 150px;
+    align-items: start;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+.flex-v-end{
+    display: flex;
+    align-items: end;
+    height: 150px;
+    background-color: rgb(75, 158, 27);
+    margin-top: 10px;
+}
+.flex-v-center{
+    display: flex;
+    height: 150px;
+    align-items:center;
+    background-color: rgb(140, 165, 73);
+    margin-top: 10px;
+}
+.flex-v-strech{
+    display: flex;
+    height: 150px;
+    align-items:stretch;
+    background-color: rgb(140, 165, 73);
+    margin-top: 10px;
+}
+.flex-v-strech> span{
+    background-color: white;
+}
